@@ -6,52 +6,49 @@
 # Grade/Mark: 1.75
 # Description: Very Good
 
-def grade():
-    while 1:
-        inpGrade = int(input("Input grade: "))
-        if inpGrade < 0:
-            print ("You cannot input negative number")
-        elif inpGrade <= 74:
-            print("Grade/Mark: 5.00")
-            print ("Description: Failure")
-            break
-        elif inpGrade == 75:
-            print("Grade/Mark: 3.00")
-            print("Description: Passing")
-            break
-        elif inpGrade <= 78:
-            print("Grade/Mark: 2.75")
-            print("Description: Satisfactory")
-            break
-        elif inpGrade <= 81:
-            print("Grade/Mark: 2.50")
-            print("Description: Satisfactory")
-            break
-        elif inpGrade <= 84:
-            print("Grade/Mark: 2.25")
-            print("Description: Good")
-            break
-        elif inpGrade <= 87:
-            print("Grade/Mark: 2.00")
-            print("Description: Good")
-            break
-        elif inpGrade <= 90:
-            print("Grade/Mark: 1.75")
-            print("Description: Very Good")
-            break
-        elif inpGrade <= 93:
-            print("Grade/Mark: 1.50")
-            print("Description: Very Good")
-            break
-        elif inpGrade <= 96:
-            print("Grade/Mark: 1.25")
-            print("Description: Excellent")
-            break
-        elif inpGrade <= 100:
-            print("Grade/Mark: 1.00")
-            print("Description: Excellent")
-            break
-
-
 #Step 1: Ask for the user's grade
-inputGrade = grade()
+#Step 2: Print the corresponding description and grade/mark
+while 1:
+    inpGrade = float(input("Input grade: "))
+    if inpGrade < 0:
+        print ("You cannot input negative number")
+    elif inpGrade <= 74:
+        print("Grade/Mark: 5.00")
+        print ("Description: Failure")
+        break
+    elif inpGrade == 75:
+        print("Grade/Mark: 3.00")
+        print("Description: Passing")
+        break
+    elif inpGrade <= 78:
+        print("Grade/Mark: 2.75")
+        print("Description: Satisfactory")
+        break
+    elif inpGrade <= 81:
+        print("Grade/Mark: 2.50")
+        print("Description: Satisfactory")
+        break
+    elif inpGrade <= 84:
+        print("Grade/Mark: 2.25")
+        print("Description: Good")
+        break
+    elif inpGrade <= 87:
+        print("Grade/Mark: 2.00")
+        print("Description: Good")
+        break
+    elif inpGrade <= 90:
+        print("Grade/Mark: 1.75")
+        print("Description: Very Good")
+        break
+    elif inpGrade <= 93:
+        print("Grade/Mark: 1.50")
+        print("Description: Very Good")
+        break
+    elif inpGrade <= 96:
+        print("Grade/Mark: 1.25")
+        print("Description: Excellent")
+        break
+    elif inpGrade <= 100:
+        print("Grade/Mark: 1.00")
+        print("Description: Excellent")
+        break
