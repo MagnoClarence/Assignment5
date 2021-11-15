@@ -12,6 +12,8 @@ while 1:
     inpGrade = float(input("Input grade: "))
     if inpGrade < 0:
         print ("You cannot input negative number")
+    elif inpGrade > 100:
+        print ("Your grade cannot exceed 100")
     elif inpGrade <= 74:
         print("Grade/Mark: 5.00")
         print ("Description: Failure")
