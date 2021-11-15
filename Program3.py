@@ -34,6 +34,7 @@ while 1:
         year = yearInp + 19
         bday = datetime.date(year, month, day) - datetime.date.today()
         print(bday)
+        print ("before you turn 19 and reach the Adult stage.")
         break
     else:
         print("Adult") 
